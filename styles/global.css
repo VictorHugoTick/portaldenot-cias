@@ -18,9 +18,24 @@
   --heading3: 800 14px/1.4 var(--font-family);
   --span: 600 14px/1.45 var(--font-family);
   --paragraph: 14px/160% var(--font-family);
+  --text: 16px/140% var(--font-family);
 }
 
 body {
+  font: var(--text);
   color: var(--text-color-primary);
   background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+  font: inherit;
 }
