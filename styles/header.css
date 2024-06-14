@@ -1,0 +1,30 @@
+#primary {
+  padding-block: 20px;
+
+  div {
+    display: flex;
+    gap: 8px;
+  }
+
+  /* nesting css */
+  div:nth-child(2) {
+    margin-inline: auto;
+
+    font-family: "Archivo Black", sans-serif;
+    font: 24px/1;
+    color: var(--brand-color-light);
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  padding-block: 14px;
+
+  border-top: 1px solid var(--stroke-color, #1E293B);
+  border-bottom: 1px solid var(--stroke-color, #1E293B);
+
+  justify-content: space-between;
+}
