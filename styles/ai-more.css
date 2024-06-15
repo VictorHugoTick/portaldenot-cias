@@ -1,0 +1,39 @@
+#ai {
+  header a {
+    justify-self: end;
+    align-items: center;
+    gap: 4px;
+
+    span img {
+      /* background-image: url(../assets/icons/ArrowRight.svg); */
+      width: 16px;
+      height: 16px;
+      position: relative;
+      top: 4px;
+    }
+
+    &:hover span img {
+      filter: hue-rotate(360deg) grayscale(0) brightness(70%) saturate(1500%) contrast(100%);
+    }
+  }
+}
+
+#more {
+  header a {
+    justify-self: end;
+    align-items: center;
+    gap: 4px;
+
+    span img {
+      /* background-image: url(../assets/icons/ArrowRight.svg); */
+      width: 16px;
+      height: 16px;
+      position: relative;
+      top: 4px;
+    }
+
+    &:hover span img {
+      filter: hue-rotate(360deg) grayscale(0) brightness(70%) saturate(1500%) contrast(100%);
+    }
+  }
+}
