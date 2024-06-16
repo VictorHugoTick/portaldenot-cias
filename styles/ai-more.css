@@ -16,9 +16,29 @@
       filter: hue-rotate(360deg) grayscale(0) brightness(70%) saturate(1500%) contrast(100%);
     }
   }
+
+  article {
+    img {
+      width: 176px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+
+    h3 {
+      margin-block: 8px 4px;
+    }
+  } 
 }
 
+/* #ads {
+  width: 488px;
+  height: 280px;
+} */
+
 #more {
+
+  margin-top: 28px;
+
   header a {
     justify-self: end;
     align-items: center;
@@ -36,4 +56,31 @@
       filter: hue-rotate(360deg) grayscale(0) brightness(70%) saturate(1500%) contrast(100%);
     }
   }
+
+  article {
+
+    height: 72px;
+
+    img {
+      width: 72px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+
+    h3 {
+      font-family: "Archivo Black", sans-serif;
+      font-size: 14px;
+      line-height: 1.4;
+
+      margin-top: 8px;
+    }
+  }
+}
+
+.px-72 {
+  height: 72px;
+}
+
+.px-176 {
+  height: 176px;
 }
